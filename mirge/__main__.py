@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 #Built-in libraries 
 from pathlib import Path
 import time
@@ -21,6 +20,7 @@ from mirge.libs.novel_mir import predict_nmir
 from mirge.classes.exportHTML import FormatHTML
 
 def main():
+    print('testing pip install -e')
     globalstart = time.perf_counter()     
     args = parseArg()
     samples = args.samples
