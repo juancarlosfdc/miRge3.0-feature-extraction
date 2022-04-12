@@ -149,7 +149,7 @@ def main():
             print("Predicting novel miRNAs\n")
         outlog.write("Predicting novel miRNAs\n")
         outlog.close()
-        predict_nmir(args, workDir, ref_db, base_names, pdUnmapped)
+        predict_nmir(args, workDir, ref_db, base_names, pdDataFrame)
         outlog = open(str(runlogFile),"a+")
     else:
         html.novelTab(0)
