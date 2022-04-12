@@ -8,7 +8,7 @@ setup(
         version='0.0.9',
         author='Arun Patil and Marc Halushka',
         author_email='mhalush1@jhmi.edu',
-        url='https://github.com/mhalushka/miRge3.0/',
+        url='https://github.com/juancarlosfdc/miRge3.0-feature-extraction.git',
         description='Comprehensive analysis of small RNA sequencing Data', 
         long_description=long_description,
         keywords=['miRge', 'small RNA analysis', 'NGS', 'bioinformatics tools', 'GUI'],  # arbitrary keywords
