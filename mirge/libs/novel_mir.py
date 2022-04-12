@@ -421,7 +421,14 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
                 os.system('sort -k6,6 -k1,1 %s > %s'%(str(outfileRevKeptTSV), str(Path(outputdir2)/(files+"_modified_selected_reverseKept_sorted.tsv"))))
                 # Trimming the clustered seuences based on the alligned results of all the reads (secondary filtering)
                 #generate_featureFiles(outfile4+'_modified_selected_sorted.tsv', chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic)
+                # here's where we modify this--we want to see those features files!
+                print(Path(workDir))
+                print(Path(outputdir2), str(Path(outputdir2)))
+                feature_file_dir = Path(workDir)/"feature_files"
+                os.mkdir(feature_file_dir)
                 generate_featureFiles(str(Path(outputdir2)), files, chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic)
+                # run it twice, the second time save the output to a different directory that actually gets saved
+                generate_featureFiles(str(Path(outputdir2)), files, chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic, feature_file_dir=feature_file_dir)
                 outfLog.write('feature file is generated\n')
                 outfLog.write('Generating the precusors based on the clustered sequences\n')
                 time9 = time.perf_counter()
@@ -445,7 +452,9 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
                 modelDirTmp = Path(__file__).resolve().parents[1]
                 modelDir = str(Path(modelDirTmp)/'models')
                 fileToPredict = Path(outputdir2)/(files+'_updated_stableClusterSeq_15.tsv')
+                # juancarlosfdc here we run this twice, the second time writing the feature files to the output directory
                 preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'))
+                preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'), feature_file_dir=feature_file_dir)
                 speciesType = args.organism_name
                 if args.organism_name == "human" or args.organism_name == "mouse":
                     mf = str(Path(modelDir)/(speciesType+'_svc_model.pkl'))

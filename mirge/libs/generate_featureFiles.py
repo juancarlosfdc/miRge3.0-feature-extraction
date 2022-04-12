@@ -53,7 +53,7 @@ def removeDash(seq):
             outSeq = outSeq + symbol
     return outSeq
 
-def generate_featureFiles(outputdir2, infFile, chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic, readNameIndex=1, readCountIndex=2, readSeqIndex=3, clusterNameIndex=6, clusterSeqIndex=4):
+def generate_featureFiles(outputdir2, infFile, chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic, readNameIndex=1, readCountIndex=2, readSeqIndex=3, clusterNameIndex=6, clusterSeqIndex=4, feature_file_dir=None):
     #def generate_featureFiles(infFile, readNameIndex=1, readCountIndex=2, readSeqIndex=3, clusterNameIndex=6, clusterSeqIndex=4):
     # *.py unmapped_mirna_SRR944034_vs_representative_seq_modified_selected_sorted.tsv hg38.pckl hsa_miRNA.gff3 hsa_mature.fa readNameIndex(1) readCountIndex(2) readSeqIndex(3) clusterNameIndex(6) clusterSeqIndex(4)"
     files_in = str(Path(outputdir2)/(infFile+"_modified_selected_sorted.tsv"))
@@ -123,7 +123,9 @@ def generate_featureFiles(outputdir2, infFile, chrSeqDic, chrSeqLenDic, miRNAchr
                         pass
                     else:
                         chrContentDetailedDic[chr].append((clusterInstance, alignSeqList, exacMatch, clusterSeq, clusterSeqRatioList, majorSeq, majorSeqRationList, headStartPosition, tailStartPosition))
-
+    # note the change (juancarlosfdc): in novelmir.py, we call this twice, and the second time, we give it a non temporary directory for its output.                  
+    if feature_file_dir is not None:
+        outputdir2 = feature_file_dir
     outf5 = open(str(Path(outputdir2)/(infFile+'_cluster.txt')),'w')
     with open(str(Path(outputdir2)/(infFile+'_features.tsv')),'w') as outf:
         outf.write('realMicRNA\trealMicRNAName\tchr\tstartPos\tendPos\tclusterName\tclusterSeq\tmajoritySeq\tstableClusterSeq\talignedClusterSeq\tadjustedClusterSeq\tclusterSecondSeq\ttemplateSeq\tseqCount\treadCountSum\texactMatchRatio\theadUnstableLength\ttailUnstableLength\t')

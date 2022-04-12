@@ -21,6 +21,7 @@ from mirge.classes.exportHTML import FormatHTML
 
 def main():
     print('testing pip install -e')
+    print('TESTING LOCAL CHANGES USING PIP INSTALL -E')
     globalstart = time.perf_counter()     
     args = parseArg()
     samples = args.samples

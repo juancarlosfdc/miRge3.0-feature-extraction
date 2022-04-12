@@ -18,7 +18,7 @@ import time
 from matplotlib.backends.backend_pdf import PdfPages
 import joblib
 
-def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file):
+def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file, feature_file_dir=None):
     # infTmp is unmapped_mirna_JH-29_Pros_SMC_vs_representative_seq_modified_selected_sorted_features_updated_stableClusterSeq_15.tsv
     readCountLimit = 10
     seqCountLimit = 3
@@ -70,7 +70,8 @@ def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file):
         for line in inf:
             if line.strip() not in nameList:
                 nameList.append(line.strip())
-
+    if feature_file_dir is not None:
+        outputdir2 = feature_file_dir
     tmpName3 = str(Path(outputdir2)/(files + '_dataset_15_refined_features.csv'))
     outf = open(tmpName3, 'w')
     with open(tmpName2, 'r') as inf:
