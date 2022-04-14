@@ -425,7 +425,10 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
                 print(Path(workDir))
                 print(Path(outputdir2), str(Path(outputdir2)))
                 feature_file_dir = Path(workDir)/"feature_files"
-                os.mkdir(feature_file_dir)
+                try:
+                    os.mkdir(feature_file_dir)
+                except:
+                    pass
                 generate_featureFiles(str(Path(outputdir2)), files, chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic)
                 # run it twice, the second time save the output to a different directory that actually gets saved
                 generate_featureFiles(str(Path(outputdir2)), files, chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic, feature_file_dir=feature_file_dir)

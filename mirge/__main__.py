@@ -21,7 +21,6 @@ from mirge.classes.exportHTML import FormatHTML
 
 def main():
     print('testing pip install -e')
-    print('TESTING LOCAL CHANGES USING PIP INSTALL -E')
     globalstart = time.perf_counter()     
     args = parseArg()
     samples = args.samples
@@ -103,7 +102,11 @@ def main():
     else:
         pdDataFrame,sampleReadCounts,trimmedReadCounts,trimmedReadCountsUnique = baking(args, fastq_fullPath, base_names, workDir)
 
+    df_after_baking = Path(workDir)/"output_of_baking.csv"
+    post_alignment = Path(workDir/"post_alignment.csv")
+    pdDataFrame.to_csv(str(df_after_baking))
     pdDataFrame = bwtAlign(args,pdDataFrame,workDir,ref_db)
+    pdDataFrame.to_csv(str(post_alignment))
     outlog = open(str(runlogFile),"a+")
     if not args.quiet:
         print(f"Summarizing and tabulating results...")
