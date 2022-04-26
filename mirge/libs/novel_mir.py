@@ -84,6 +84,7 @@ def cluster_basedon_location(outfile2, overlapLenThresholdTmp,files, outputdir2,
     for line in inf:
         if line[0] != '@':
             contentTemp = line.strip().split('\t')
+            print("This is the content of the .sam file:\n", contentTemp)
             chr = contentTemp[2]
             if 'chr' in chr:
                 if chr not in chrList:
@@ -472,7 +473,8 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
     if errorTrue ==1: 
         print(f'No cluster sequences are generated and prediction is aborted.')
     predict_end_time = time.perf_counter()
-    os.system('rm -r %s'%(outputdir2))
+    # I understand why they remove the outputdir2 if they're generating sam files and it's too large. But it certainly makes debugging a lot harder. So we will save this directory. 
+    #    os.system('rm -r %s'%(outputdir2))
     htmlJS.closeNovelmiRJSData()
     if not args.quiet:
         print('Prediction of novel miRNAs Completed (%.2f sec)'%(predict_end_time - predict_start_time))
