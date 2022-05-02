@@ -152,7 +152,10 @@ def main():
             print("Predicting novel miRNAs\n")
         outlog.write("Predicting novel miRNAs\n")
         outlog.close()
-        predict_nmir(args, workDir, ref_db, base_names, pdDataFrame)
+        # here's where we modify the script to feed in trainig data--annotated reads get fed in and clustered to produce the feature files for each rna type.
+        for rna_type in pdMapped.columns[2:-1]:
+            rna_type_mapped = pdMapped[~pdMapped[rna_type].isna()]
+            predict_nmir(args, workDir, ref_db, base_names, rna_type_mapped, rna_type=rna_type)
         outlog = open(str(runlogFile),"a+")
     else:
         html.novelTab(0)

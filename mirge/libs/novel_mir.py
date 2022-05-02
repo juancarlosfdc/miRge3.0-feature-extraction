@@ -84,7 +84,6 @@ def cluster_basedon_location(outfile2, overlapLenThresholdTmp,files, outputdir2,
     for line in inf:
         if line[0] != '@':
             contentTemp = line.strip().split('\t')
-            print("This is the content of the .sam file:\n", contentTemp)
             chr = contentTemp[2]
             if 'chr' in chr:
                 if chr not in chrList:
@@ -211,7 +210,7 @@ def preTrimClusteredSeq(CoordinateDic, cluster_file, files, clusterSeqLenCutoff,
     return trimmed_count
 
 
-def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
+def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type):
     htmlJS = FormatJS(workDir)
     htmlJS.openNovelmiRJSData()
     predict_start_time = time.perf_counter()
@@ -314,7 +313,10 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
     #infile = args.infile
     #Load the output file 'maaped.csv' and 'unmapped.csv' for downstream analysis representatively.
     outputdir2 = Path(workDir)/"unmapped_tmp"
-    os.mkdir(outputdir2)
+    try:
+        os.mkdir(outputdir2)
+    except:
+        pass
 
     bwtCmdTmp = str(Path(args.bowtie_path)/"bowtie ") if args.bowtie_path else "bowtie "
     if args.bowtieVersion == "False": # That is if version is v1.3.0
@@ -457,19 +459,18 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped):
                 modelDir = str(Path(modelDirTmp)/'models')
                 fileToPredict = Path(outputdir2)/(files+'_updated_stableClusterSeq_15.tsv')
                 # juancarlosfdc here we run this twice, the second time writing the feature files to the output directory
-                preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'))
-                preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'), feature_file_dir=feature_file_dir)
+                preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'), rna_type=rna_type)
                 speciesType = args.organism_name
                 if args.organism_name == "human" or args.organism_name == "mouse":
                     mf = str(Path(modelDir)/(speciesType+'_svc_model.pkl'))
                 else:
                     mf = str(Path(modelDir)/"others_svc_model.pkl")
-                model_predict(str(outputdir2), files, mf)
+                model_predict(str(outputdir2), files, mf, rna_type=rna_type)
                 #model_predict(str(outputdir2), files, str(Path(modelDir)/(speciesType+'_svc_model.pkl')))
                 novelmiRNALListFile = str(Path(outputdir2)/(files+'_novel_miRNAs_miRge2.0.csv'))
                 featureFile = fileToPredict
                 clusterFile = str(Path((outputdir2)/(files+'_cluster.txt')))
-                write_novel_report(novelmiRNALListFile, featureFile, clusterFile, str(rnafoldCmdTmp), str(Path(outputdir2)), files)
+                write_novel_report(novelmiRNALListFile, featureFile, clusterFile, str(rnafoldCmdTmp), str(Path(outputdir2)), files, rna_type)
     if errorTrue ==1: 
         print(f'No cluster sequences are generated and prediction is aborted.')
     predict_end_time = time.perf_counter()

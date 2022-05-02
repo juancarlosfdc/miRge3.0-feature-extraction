@@ -18,7 +18,7 @@ import time
 from matplotlib.backends.backend_pdf import PdfPages
 import joblib
 
-def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file, feature_file_dir=None):
+def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file, feature_file_dir=None, rna_type=None):
     # infTmp is unmapped_mirna_JH-29_Pros_SMC_vs_representative_seq_modified_selected_sorted_features_updated_stableClusterSeq_15.tsv
     readCountLimit = 10
     seqCountLimit = 3
@@ -72,7 +72,7 @@ def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file, fe
                 nameList.append(line.strip())
     if feature_file_dir is not None:
         outputdir2 = feature_file_dir
-    tmpName3 = str(Path(outputdir2)/(files + '_dataset_15_refined_features.csv'))
+    tmpName3 = str(Path(outputdir2)/(files + '_rna_type_' + rna_type + '_dataset_15_refined_features.csv'))
     outf = open(tmpName3, 'w')
     with open(tmpName2, 'r') as inf:
         retainedIndexList = []
@@ -98,8 +98,8 @@ def preprocess_featureFiles(outputdir2, files, infTmp, feature_namelist_file, fe
     outf.close()
 
 
-def model_predict(outputdir2, files, modelFile):
-    inputFile = str(Path(outputdir2)/(files+"_dataset_15_refined_features.csv"))
+def model_predict(outputdir2, files, modelFile, rna_type=None):
+    inputFile = str(Path(outputdir2)/(files + '_rna_type_' + rna_type + "_dataset_15_refined_features.csv"))
     cutoff_picked = 0.8
     sc, clf, selectFeatureNameList = joblib.load(modelFile)
     data = pd.read_csv(inputFile)

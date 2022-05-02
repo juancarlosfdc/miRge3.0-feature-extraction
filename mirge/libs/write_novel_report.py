@@ -485,8 +485,8 @@ def padClusteredList(matureReadContentlistRaw, matureMiRNASeq, matureMiRNAPrecus
     return newReadContentList
 
 
-def write_novel_report(novelmiRNALListFile, featureFile, clusterFile, rnafoldCmdTmp, outputdir2, files):
-    dir_tmp = Path((Path(outputdir2).resolve().parents[0]))/(files+'_novel_miRNAs')
+def write_novel_report(novelmiRNALListFile, featureFile, clusterFile, rnafoldCmdTmp, outputdir2, files, rna_type):
+    dir_tmp = Path((Path(outputdir2).resolve().parents[0]))/(files + '_rna_type_' + rna_type + '_novel_miRNAs')
     os.mkdir(dir_tmp)
     #samppleName_tmp = '_'.join(novelmiRNALListFile.split('_')[:-3])
     novelmiRNALOriginalList = []
