@@ -425,8 +425,6 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type):
                 # Trimming the clustered seuences based on the alligned results of all the reads (secondary filtering)
                 #generate_featureFiles(outfile4+'_modified_selected_sorted.tsv', chrSeqDic, chrSeqLenDic, miRNAchrCoordivateDic, exactmiRNASeqDic)
                 # here's where we modify this--we want to see those features files!
-                print(Path(workDir))
-                print(Path(outputdir2), str(Path(outputdir2)))
                 feature_file_dir = Path(workDir)/"feature_files"
                 try:
                     os.mkdir(feature_file_dir)
@@ -452,25 +450,34 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type):
                 renameStrFile(infile_pre, outfile_str, strFileOut)
                 time12 = time.perf_counter()
                 outfLog.write('Folding precursors with RNAfold time: %.1fs\n'%(time12-time11))
-                screen_precusor_candidates(str(Path(outputdir2)), files, str(Path(outputdir2)/(files+"_features.tsv")), strFileOut, str(rnafoldCmdTmp))
-                outfLog.write('********************\n')
-                outfLog.flush()
-                modelDirTmp = Path(__file__).resolve().parents[1]
-                modelDir = str(Path(modelDirTmp)/'models')
-                fileToPredict = Path(outputdir2)/(files+'_updated_stableClusterSeq_15.tsv')
-                # juancarlosfdc here we run this twice, the second time writing the feature files to the output directory
-                preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'), rna_type=rna_type)
-                speciesType = args.organism_name
-                if args.organism_name == "human" or args.organism_name == "mouse":
-                    mf = str(Path(modelDir)/(speciesType+'_svc_model.pkl'))
-                else:
-                    mf = str(Path(modelDir)/"others_svc_model.pkl")
-                model_predict(str(outputdir2), files, mf, rna_type=rna_type)
-                #model_predict(str(outputdir2), files, str(Path(modelDir)/(speciesType+'_svc_model.pkl')))
-                novelmiRNALListFile = str(Path(outputdir2)/(files+'_novel_miRNAs_miRge2.0.csv'))
-                featureFile = fileToPredict
-                clusterFile = str(Path((outputdir2)/(files+'_cluster.txt')))
-                write_novel_report(novelmiRNALListFile, featureFile, clusterFile, str(rnafoldCmdTmp), str(Path(outputdir2)), files, rna_type)
+                # juancarlosfdc another change we make is that if screen_precursor_candidates breaks, we don't continue.
+                precursor_check = True
+                try:
+                    screen_precusor_candidates(str(Path(outputdir2)), files, str(Path(outputdir2)/(files+"_features.tsv")), strFileOut, str(rnafoldCmdTmp))
+                except ValueError:
+                    print("screen_precursor_candidates failed with Value Error, no precursor generated, no feature files written")
+                    precursor_check = False
+                if precursor_check:
+                    outfLog.write('********************\n')
+                    outfLog.flush()
+                    modelDirTmp = Path(__file__).resolve().parents[1]
+                    modelDir = str(Path(modelDirTmp)/'models')
+                    fileToPredict = Path(outputdir2)/(files+'_updated_stableClusterSeq_15.tsv')
+                    preprocess_featureFiles(str(Path(outputdir2)), files, fileToPredict, str(Path(modelDir)/'total_features_namelist.txt'), rna_type=rna_type)
+                    speciesType = args.organism_name
+                    if args.organism_name == "human" or args.organism_name == "mouse":
+                        mf = str(Path(modelDir)/(speciesType+'_svc_model.pkl'))
+                    else:
+                        mf = str(Path(modelDir)/"others_svc_model.pkl")
+                        model_predict(str(outputdir2), files, mf, rna_type=rna_type)
+                        #model_predict(str(outputdir2), files, str(Path(modelDir)/(speciesType+'_svc_model.pkl')))
+                    novelmiRNALListFile = str(Path(outputdir2)/(files+'_novel_miRNAs_miRge2.0.csv'))
+                    featureFile = fileToPredict
+                    clusterFile = str(Path((outputdir2)/(files+'_cluster.txt')))
+                    try:
+                        write_novel_report(novelmiRNALListFile, featureFile, clusterFile, str(rnafoldCmdTmp), str(Path(outputdir2)), files, rna_type)
+                    except FileNotFoundError:
+                        print('novel_miRNA file not found')
     if errorTrue ==1: 
         print(f'No cluster sequences are generated and prediction is aborted.')
     predict_end_time = time.perf_counter()
