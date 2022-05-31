@@ -70,14 +70,14 @@ def main(arg=sys.argv):
         data_x = data.iloc[:, subIndexList].values
         # Create a variable for the target data
         data_y = data.iloc[:, 0].values
-        X_train, X_test, y_train, y_test = train_test_split(
-            data_x, data_y, test_size=0.20, random_state=101)
-        np.save('X_test', X_test)
-        np.save('y_test', y_test)
+#         X_train, X_test, y_train, y_test = train_test_split(
+#          data_x, data_y, test_size=0.20, random_state=101)
+#       np.save('X_test', X_test)
+#       np.save('y_test', y_test)
         # Standardize Feature Data by removing the mean and scaling to unit variance
         sc = StandardScaler()
-        sc.fit(X_train)
-        x_train_std = sc.transform(X_train)
+        sc.fit(data_x)
+        x_train_std = sc.transform(data_x)
         # Remove features with low variance
         #selector = VarianceThreshold(threshold=0.0001)
         # selector.fit(x_train_std)
@@ -96,9 +96,9 @@ def main(arg=sys.argv):
                        'clf__gamma': param_range, 'clf__kernel': ['rbf']}]
         gs = GridSearchCV(estimator=pipe_svc, param_grid=param_grid,
                           scoring=mcc_scorer, cv=10, n_jobs=32)
-        gs = gs.fit(x_train_std_filter, y_train)
+        gs = gs.fit(x_train_std_filter, data_y)
         clf = gs.best_estimator_
-        clf.fit(x_train_std_filter, y_train)
+        clf.fit(x_train_std_filter, data_y)
         time2 = time.time()
         print('%d\t%.3f\t%.1f' %
               (len(featureListSelected), gs.best_score_, time2-time1))
@@ -120,7 +120,7 @@ def main(arg=sys.argv):
 				print '%d\t%.3f\t%.1f'%(index+1, gs.best_score_, time2-time1)
 		"""
         joblib.dump([sc, clf, featureListSelected],
-                    "pileup_only_features.pkl", compress=1)
+                    "hold_out_2_5_7_19.pkl", compress=1)
 
 
 if __name__ == "__main__":
