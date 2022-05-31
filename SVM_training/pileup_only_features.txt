@@ -1,0 +1,11 @@
+featureName	mRMRScore	Position
+exactMatchRatio	0.168	2
+head_minus3_TemplateNucleotide_percentage	0.12	5
+headUnstableLength	0.079	3
+tail_plus2_A_percentage	0.064	26
+head_minus2_TemplateNucleotide_percentage	0.064	10
+tail_plus1_A_percentage	0.059	21
+tail_plus3_A_percentage	0.038	31
+tail_plus5_TemplateNucleotide_percentage	0.037	40
+tail_plus1_TemplateNucleotide_percentage	0.034	20
+head_minus1_TemplateNucleotide_percentage	0.033	15
