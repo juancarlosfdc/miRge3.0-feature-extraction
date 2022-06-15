@@ -1,0 +1,9 @@
+/home/jfernand/anaconda3/envs/mirge-dev/bin/miRge3.0 -s ../training_data/merged.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o merged_output/ -gff -nmir -trf -ai -cpu 16 -a illumina -pbwt /home/jfernand/anaconda3/envs/mirge-dev/bin
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+

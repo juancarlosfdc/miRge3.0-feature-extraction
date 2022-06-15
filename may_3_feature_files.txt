@@ -1,0 +1,169 @@
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_15-45-08/unmapped_tmp/ERR038413_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_15-45-08/unmapped_tmp/ERR038413_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_15-45-08/unmapped_tmp/ERR038413_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_15-45-08/unmapped_tmp/ERR038413_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_15-45-08/unmapped_tmp/ERR038413_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_15-53-02/unmapped_tmp/ERR038420_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-00-07/unmapped_tmp/ERR038425_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-00-07/unmapped_tmp/ERR038425_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-29-46/unmapped_tmp/ERR852097_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-40-56/unmapped_tmp/ERR852099_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_16-52-26/unmapped_tmp/ERR973611_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-08-02/unmapped_tmp/ERR973613_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-21-07/unmapped_tmp/SRR1291267_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-28-42/unmapped_tmp/SRR1291269_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-36-28/unmapped_tmp/SRR1635903_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-36-28/unmapped_tmp/SRR1635903_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-36-28/unmapped_tmp/SRR1635903_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-36-28/unmapped_tmp/SRR1635903_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-36-28/unmapped_tmp/SRR1635903_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-46-00/unmapped_tmp/SRR1635908_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-46-00/unmapped_tmp/SRR1635908_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-46-00/unmapped_tmp/SRR1635908_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-46-00/unmapped_tmp/SRR1635908_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-46-00/unmapped_tmp/SRR1635908_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_17-46-00/unmapped_tmp/SRR1635908_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-02-48/unmapped_tmp/SRR2174513_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-02-48/unmapped_tmp/SRR2174513_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-02-48/unmapped_tmp/SRR2174513_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-02-48/unmapped_tmp/SRR2174513_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-09-12/unmapped_tmp/SRR2174517_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-09-12/unmapped_tmp/SRR2174517_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-09-12/unmapped_tmp/SRR2174517_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-09-12/unmapped_tmp/SRR2174517_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-09-12/unmapped_tmp/SRR2174517_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-15-50/unmapped_tmp/SRR333658_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-15-50/unmapped_tmp/SRR333658_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-15-50/unmapped_tmp/SRR333658_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-15-50/unmapped_tmp/SRR333658_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-15-50/unmapped_tmp/SRR333658_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-15-50/unmapped_tmp/SRR333658_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-24-33/unmapped_tmp/SRR333674_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-24-33/unmapped_tmp/SRR333674_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-24-33/unmapped_tmp/SRR333674_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-24-33/unmapped_tmp/SRR333674_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-24-33/unmapped_tmp/SRR333674_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-24-33/unmapped_tmp/SRR333674_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-33-34/unmapped_tmp/SRR333680_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-33-34/unmapped_tmp/SRR333680_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-33-34/unmapped_tmp/SRR333680_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-33-34/unmapped_tmp/SRR333680_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-33-34/unmapped_tmp/SRR333680_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-33-34/unmapped_tmp/SRR333680_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-40-53/unmapped_tmp/SRR372648_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-52-00/unmapped_tmp/SRR372650_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-52-00/unmapped_tmp/SRR372650_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-52-00/unmapped_tmp/SRR372650_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-52-00/unmapped_tmp/SRR372650_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-52-00/unmapped_tmp/SRR372650_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_18-52-00/unmapped_tmp/SRR372650_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-05-52/unmapped_tmp/SRR384894_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-05-52/unmapped_tmp/SRR384894_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-05-52/unmapped_tmp/SRR384894_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-05-52/unmapped_tmp/SRR384894_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-11-39/unmapped_tmp/SRR553574_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-11-39/unmapped_tmp/SRR553574_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-11-39/unmapped_tmp/SRR553574_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-11-39/unmapped_tmp/SRR553574_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-11-39/unmapped_tmp/SRR553574_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-11-39/unmapped_tmp/SRR553574_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-18-34/unmapped_tmp/SRR553575_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-18-34/unmapped_tmp/SRR553575_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-18-34/unmapped_tmp/SRR553575_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-18-34/unmapped_tmp/SRR553575_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-18-34/unmapped_tmp/SRR553575_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-25-52/unmapped_tmp/SRR553576_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-25-52/unmapped_tmp/SRR553576_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-25-52/unmapped_tmp/SRR553576_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-25-52/unmapped_tmp/SRR553576_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-25-52/unmapped_tmp/SRR553576_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-25-52/unmapped_tmp/SRR553576_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-35-15/unmapped_tmp/SRR567637_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-43-24/unmapped_tmp/SRR567638_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-51-45/unmapped_tmp/SRR837475_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-51-45/unmapped_tmp/SRR837475_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-51-45/unmapped_tmp/SRR837475_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-51-45/unmapped_tmp/SRR837475_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-51-45/unmapped_tmp/SRR837475_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-51-45/unmapped_tmp/SRR837475_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-57-28/unmapped_tmp/SRR837477_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-57-28/unmapped_tmp/SRR837477_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-57-28/unmapped_tmp/SRR837477_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-57-28/unmapped_tmp/SRR837477_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-57-28/unmapped_tmp/SRR837477_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_19-57-28/unmapped_tmp/SRR837477_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-03-39/unmapped_tmp/SRR837839_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_mRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_ncrna others_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_primary tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-17-19/unmapped_tmp/SRR837842_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-29-40/unmapped_tmp/SRR944031_rna_type_isomiR miRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-29-40/unmapped_tmp/SRR944031_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-29-40/unmapped_tmp/SRR944031_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-29-40/unmapped_tmp/SRR944031_rna_type_snoRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-35-38/unmapped_tmp/SRR944034_rna_type_mature tRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-35-38/unmapped_tmp/SRR944034_rna_type_rRNA_dataset_15_refined_features.csv
+/home/jfernand/mirge/miRge3.0-feature-extraction/output_dir_may_3/miRge.2022-05-03_20-35-38/unmapped_tmp/SRR944034_rna_type_snoRNA_dataset_15_refined_features.csv

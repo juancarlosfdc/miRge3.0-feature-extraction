@@ -1,0 +1,2 @@
+/home/jfernand/mirge/miRge3.0-feature-extraction/../training_data/fastqs/ERR038410.fastq
+/home/jfernand/mirge/miRge3.0-feature-extraction/../training_data/fastqs/ERR038413.fastq
