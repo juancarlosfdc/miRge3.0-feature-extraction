@@ -123,7 +123,7 @@ def main(arg=sys.argv):
 				print '%d\t%.3f\t%.1f'%(index+1, gs.best_score_, time2-time1)
 		"""
         joblib.dump([sc, clf, featureListSelected],
-                    "prec_only_no_pair_no_arm.pkl", compress=1)
+                    "prec_only_no_pair_no_arm_my_features.pkl", compress=1)
 
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 import Bio
 # from Bio.Alphabet import generic_dna
+import json
 
 from mirge.classes.readCluster import ReadCluster
 
@@ -274,8 +275,10 @@ def generate_featureFiles(outputdir2, infFile, chrSeqDic, chrSeqLenDic, miRNAchr
                         else:
                             outf.write(str(features[14])+'\n')
 
-def get_precursors(outputdir2, infFile, chrSeqDic):
+def get_precursors(outputdir2, infFile, chrSeqDic, proxy=None):
     infTmp = str(Path(outputdir2)/(infFile+"_features.tsv"))
+    if proxy is not None:
+        infTmp = proxy
     outf_file = str(Path(outputdir2)/(infFile+"_precursor.fa"))
     # The arguments of this function are as follows:
     clusterSeqType = 'stableClusterSeq'

@@ -153,16 +153,16 @@ def main():
         outlog.write("Predicting novel miRNAs\n")
         outlog.close()
         # here's where we modify the script to feed in training data--annotated reads get fed in and clustered to produce the feature files for each rna type.
-        for rna_type in pdMapped.columns[2:-1]:
+#        for rna_type in pdMapped.columns[2:-1]:
             # for some reason, this doesn't work to filter the data frame
 #            rna_type_mapped = pdMapped[~pdMapped[rna_type].isna()]
             # this however does:
-            rna_type_mapped = pdMapped[pdMapped[rna_type] != ""]
+#            rna_type_mapped = pdMapped[pdMapped[rna_type] != ""]
 #             print("this is pdMapped.head()", pdMapped.head())
 #             print("this is pdMapped.dtypes", pdMapped.dtypes)
 #            print("this is filtering on testing equality with ''", len(pdMapped[pdMapped[rna_type] != ""]))
-            print("clustering rna type {rna_type} \n length of filtered mapped.csv is {length}".format(rna_type=rna_type, length=len(rna_type_mapped)))
-            predict_nmir(args, workDir, ref_db, base_names, rna_type_mapped, rna_type=rna_type)
+ #           print("clustering rna type {rna_type} \n length of filtered mapped.csv is {length}".format(rna_type=rna_type, length=len(rna_type_mapped)))
+        predict_nmir(args, workDir, ref_db, base_names, pdUnmapped)
         outlog = open(str(runlogFile),"a+")
     else:
         html.novelTab(0)

@@ -1,12 +1,9 @@
 featureName	mRMRScore	Position
 count_bindings_in_miRNA	0.37	58
-pair_state_No	0.146	101
 mFE	0.146	57
 hairpin_count	0.112	52
 stem_length	0.109	56
 distanceToloop	0.095	50
 percentage_PairedInMiRNA	0.079	51
-pair_state_Yes	0.078	102
 binding_count	0.06	53
-armType_loop	0.038	97
 interiorLoopCount	0.033	54

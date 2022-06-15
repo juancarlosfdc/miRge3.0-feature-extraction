@@ -210,7 +210,7 @@ def preTrimClusteredSeq(CoordinateDic, cluster_file, files, clusterSeqLenCutoff,
     return trimmed_count
 
 
-def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type):
+def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type='test'):
     htmlJS = FormatJS(workDir)
     htmlJS.openNovelmiRJSData()
     predict_start_time = time.perf_counter()
@@ -436,7 +436,7 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type):
                 outfLog.write('feature file is generated\n')
                 outfLog.write('Generating the precusors based on the clustered sequences\n')
                 time9 = time.perf_counter()
-                precursor_count = get_precursors(str(Path(outputdir2)), files, chrSeqDic)
+                precursor_count = get_precursors(str(Path(outputdir2)), files, chrSeqDic, proxy='proxy_feature_df_stable_13_June.tsv')
                 time10 = time.perf_counter()
                 outfLog.write('Generating the precusors based on the clustered sequences time: %.1fs\n'%(time10-time9))
                 outfLog.write(f'**There are {str(precursor_count)} precusors generated\n')
@@ -453,7 +453,7 @@ def predict_nmir(args, workDir, ref_db, base_names, pdUnmapped, rna_type):
                 # juancarlosfdc another change we make is that if screen_precursor_candidates breaks, we don't continue.
                 precursor_check = True
                 try:
-                    screen_precusor_candidates(str(Path(outputdir2)), files, str(Path(outputdir2)/(files+"_features.tsv")), strFileOut, str(rnafoldCmdTmp))
+                    screen_precusor_candidates(str(Path(outputdir2)), files, 'proxy_feature_df_stable_13_June.tsv', strFileOut, str(rnafoldCmdTmp))
                 except ValueError:
                     print("screen_precursor_candidates failed with Value Error, no precursor generated, no feature files written")
                     precursor_check = False
