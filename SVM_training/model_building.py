@@ -47,10 +47,12 @@ def main(arg=sys.argv):
             line = inf.readline()
             line = inf.readline()
             while line != '':
+                print(line)
                 featureListSelected.append((float(line.strip().split('\t')[1]), int(
                     line.strip().split('\t')[2]), line.strip().split('\t')[0]))
                 line = inf.readline()
         time1 = time.time()
+        print(featureListSelected)
         data = pd.read_csv(arg[1])
         #data_x_raw = data.iloc[:,1:].values
         #data_y_raw = data.iloc[:,0].values
@@ -64,19 +66,20 @@ def main(arg=sys.argv):
 
         # subselect data with the selected features
         totalfeatureList = data.columns.values.tolist()
-        subIndexList = [totalfeatureList.index(
-            item[2]) for item in featureListSelected]
+        subIndexList = [totalfeatureList.index(item[2]) for item in featureListSelected]
         # Creat a variable for the feature data
         data_x = data.iloc[:, subIndexList].values
         # Create a variable for the target data
         data_y = data.iloc[:, 0].values
-        X_train, X_test, y_train, y_test = train_test_split(
-          data_x, data_y, test_size=0.20, random_state=101)
-        print([item[2] for item in featureListSelected])
-        np.save('X_train', X_train)
-        np.save('y_train', y_train)
-        np.save('X_test', X_test)
-        np.save('y_test', y_test)
+        X_train = data_x
+        y_train = data_y 
+#        X_train, X_test, y_train, y_test = train_test_split(
+#          data_x, data_y, test_size=0.20, random_state=101)
+#        print([item[2] for item in featureListSelected])
+#        np.save('X_train', X_train)
+#        np.save('y_train', y_train)
+#        np.save('X_test', X_test)
+#        np.save('y_test', y_test)
         # Standardize Feature Data by removing the mean and scaling to unit variance
         sc = StandardScaler()
         sc.fit(X_train)
@@ -123,7 +126,7 @@ def main(arg=sys.argv):
 				print '%d\t%.3f\t%.1f'%(index+1, gs.best_score_, time2-time1)
 		"""
         joblib.dump([sc, clf, featureListSelected],
-                    "prec_only_no_pair_no_arm_my_features.pkl", compress=1)
+                    "mirgenedb_all_negative_annotations.pkl", compress=1)
 
 
 if __name__ == "__main__":

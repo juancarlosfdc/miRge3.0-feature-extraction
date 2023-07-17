@@ -9,6 +9,7 @@ from Bio import SeqIO
 import Bio
 # from Bio.Alphabet import generic_dna
 import json
+import re
 
 from mirge.classes.readCluster import ReadCluster
 
@@ -303,10 +304,14 @@ def get_precursors(outputdir2, infFile, chrSeqDic, proxy=None):
             tailDashCountTmp = tailDashCount(alignedClusterSeq)
             side = 'both'
             if temp not in precusorList:
-                chr = temp.split(':')[2]
+                # we're changing this code bc annotations often have colons in the name. Instead, simply grab the chr* that comes before the last colon. 
+#                chr = temp.split(':')[2]
+                chr = re.search('chr[^:]*:[^:]*$', temp).group(0).split(':')[0]
                 if chr in chrSeqDic.keys():
-                    startPos = int(temp.split(':')[3][:-1].split('_')[0].strip())
-                    endPos = int(temp.split(':')[3][:-1].split('_')[1].strip())
+#                    startPos = int(temp.split(':')[3][:-1].split('_')[0].strip())
+#                    endPos = int(temp.split(':')[3][:-1].split('_')[1].strip())
+                    startPos = int(re.search('chr[^:]*:[^:]*$', temp).group(0).split(':')[1].split('_')[0].strip())
+                    endPos =  int(re.search('chr[^:]*:[^:]*$', temp).group(0).split(':')[1].split('_')[1].strip()[:-1])
                     strand = temp[-1]
                     if clusterSeqType == 'stableClusterSeq':
                         if strand == '+':
