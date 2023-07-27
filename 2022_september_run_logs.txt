@@ -1,0 +1,630 @@
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.729 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.009 second(s)
+Matrix creation finished in 0.0127 second(s)
+
+Data pre-processing completed in 0.7618 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.4758 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.6414 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (12.73 sec)
+The analysis completed in 23.108 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7692 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0082 second(s)
+Matrix creation finished in 0.012 second(s)
+
+Data pre-processing completed in 0.7999 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.4898 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.5512 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt not found!. Required: cutadapt >=2.6
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6888 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0076 second(s)
+Matrix creation finished in 0.0105 second(s)
+
+Data pre-processing completed in 0.7161 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.645 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.5931 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt not found!. Required: cutadapt >=2.6
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6828 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0084 second(s)
+Matrix creation finished in 0.0127 second(s)
+
+Data pre-processing completed in 0.7142 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.2388 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.5386 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (11.31 sec)
+The analysis completed in 21.0608 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6916 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0084 second(s)
+Matrix creation finished in 0.0122 second(s)
+
+Data pre-processing completed in 0.7225 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.237 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.5263 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (11.16 sec)
+The analysis completed in 20.8939 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.738 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0084 second(s)
+Matrix creation finished in 0.0122 second(s)
+
+Data pre-processing completed in 0.7694 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.5892 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 3.0498 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (13.07 sec)
+The analysis completed in 23.7766 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6927 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0083 second(s)
+Matrix creation finished in 0.0122 second(s)
+
+Data pre-processing completed in 0.7234 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.2232 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.547 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (11.14 sec)
+The analysis completed in 20.8535 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6929 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0081 second(s)
+Matrix creation finished in 0.0124 second(s)
+
+Data pre-processing completed in 0.7238 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.2408 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.5621 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (11.27 sec)
+The analysis completed in 20.9841 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.715 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0084 second(s)
+Matrix creation finished in 0.0117 second(s)
+
+Data pre-processing completed in 0.7457 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.4824 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.487 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (14.25 sec)
+The analysis completed in 30.3122 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7238 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0089 second(s)
+Matrix creation finished in 0.013 second(s)
+
+Data pre-processing completed in 0.756 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.9412 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.0429 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7948 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0096 second(s)
+Matrix creation finished in 0.0122 second(s)
+
+Data pre-processing completed in 0.8274 second(s)
+
+Alignment in progress ...
+Alignment completed in 7.7261 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 10.5439 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6736 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0084 second(s)
+Matrix creation finished in 0.012 second(s)
+
+Data pre-processing completed in 0.7042 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.5734 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 8.4022 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6857 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0084 second(s)
+Matrix creation finished in 0.0119 second(s)
+
+Data pre-processing completed in 0.7163 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.3009 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.1556 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6752 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0078 second(s)
+Matrix creation finished in 0.0122 second(s)
+
+Data pre-processing completed in 0.7058 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.7455 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.8451 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on mouse -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.67 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0081 second(s)
+Matrix creation finished in 0.0129 second(s)
+
+Data pre-processing completed in 0.7013 second(s)
+
+Alignment in progress ...
+Alignment completed in 5.187 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 2.4695 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7203 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.021 second(s)
+Matrix creation finished in 0.0142 second(s)
+
+Data pre-processing completed in 0.77 second(s)
+
+Alignment in progress ...
+Alignment completed in 7.0499 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.3184 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.689 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.008 second(s)
+Matrix creation finished in 0.0126 second(s)
+
+Data pre-processing completed in 0.72 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.4098 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 9.3897 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7009 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0156 second(s)
+Matrix creation finished in 0.0135 second(s)
+
+Data pre-processing completed in 0.7428 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.4982 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.6899 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6908 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0081 second(s)
+Matrix creation finished in 0.0118 second(s)
+
+Data pre-processing completed in 0.7213 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.5298 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.6781 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (13.01 sec)
+The analysis completed in 29.113 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7047 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0087 second(s)
+Matrix creation finished in 0.0125 second(s)
+
+Data pre-processing completed in 0.7361 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.5528 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 8.8142 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (431.97 sec)
+The analysis completed in 449.3907 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7291 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0187 second(s)
+Matrix creation finished in 0.0173 second(s)
+
+Data pre-processing completed in 0.7786 second(s)
+
+Alignment in progress ...
+Alignment completed in 7.3498 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 9.2004 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predict/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.8726 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0078 second(s)
+Matrix creation finished in 0.013 second(s)
+
+Data pre-processing completed in 0.9038 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.5436 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.743 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (426.18 sec)
+The analysis completed in 442.6715 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6959 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0262 second(s)
+Matrix creation finished in 0.0177 second(s)
+
+Data pre-processing completed in 0.7532 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.9568 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.9051 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (144.67 sec)
+The analysis completed in 161.8484 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.6744 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0225 second(s)
+Matrix creation finished in 0.0153 second(s)
+
+Data pre-processing completed in 0.7258 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.3781 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.2786 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (204.97 sec)
+The analysis completed in 220.8729 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7897 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0198 second(s)
+Matrix creation finished in 0.0158 second(s)
+
+Data pre-processing completed in 0.8384 second(s)
+
+Alignment in progress ...
+Alignment completed in 7.0791 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 10.0555 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (450.15 sec)
+The analysis completed in 469.8545 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7246 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.022 second(s)
+Matrix creation finished in 0.0142 second(s)
+
+Data pre-processing completed in 0.7738 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.7233 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.6506 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (141.16 sec)
+The analysis completed in 157.808 second(s)
+/Users/jfernand/opt/anaconda3/envs/mirge-dev/bin/miRge3.0 -s GTEX-1117F-0005-SM-GMJZF.lncRNA.fastq -lib ../miRge3_Lib -on human -db mirgenedb -o output_dir -gff -nmir -bam -cpu 12 -a illumina -pbwt ../bowtie-1.3.0-macos-x86_64
+bowtie version: 1.3.0
+cutadapt version: 2.6
+Samtools version: 1.11
+RNAfold version: 2.4.14
+Collecting and validating input files...
+
+miRge3.0 will process 1 out of 1 input file(s).
+
+Cutadapt finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.7277 second(s)
+Collapsing finished for file GTEX-1117F-0005-SM-GMJZF.lncRNA in 0.0235 second(s)
+Matrix creation finished in 0.0153 second(s)
+
+Data pre-processing completed in 0.7804 second(s)
+
+Alignment in progress ...
+Alignment completed in 6.9235 second(s)
+
+Summarizing and tabulating results...
+Summary completed in 7.835 second(s)
+Predicting novel miRNAs
+
+Performing prediction of novel miRNAs...Start to predictPrediction of novel miRNAs Completed (142.25 sec)
+The analysis completed in 159.1483 second(s)
